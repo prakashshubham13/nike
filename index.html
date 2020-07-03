@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <style>
 
 * {
@@ -17,7 +18,8 @@ body {
   background: #ffffff;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
+  background-attachment: fixed;
 }
 .cover{
     background:yellowgreen;
@@ -235,7 +237,7 @@ a{
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+	background: url(79.gif) center no-repeat yellowgreen;
 }
 .menu{
   position: absolute;
@@ -251,6 +253,200 @@ a{
 .menu i:hover{
   color: yellowgreen;
 }
+.div{
+  background-image:radial-gradient(rgb(0, 0, 0),rgb(43, 43, 43));
+  background-image: url(g.png);
+  height: 100vh;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.div img{
+  width: 40%;
+  height: 100%;
+  
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.div h2{
+  width: 50%;
+  margin-top: 30%;
+  margin-left: 8%;
+  font-size: 50px;
+  color: yellowgreen;
+ 
+}
+.div .para{
+  transform: rotate(1deg);
+  padding-bottom: 10%;
+ 
+  
+}
+.div .para p{
+color: #ffffff;
+font-size: 18px;
+}
+.part3{
+  background-image: url(out.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+.mee{
+ 
+    display:inline-block;
+    width:25%;
+    background: rgb(0, 0, 0);
+    text-align:center;
+ margin: 5%;
+ margin-top: 10%;
+    height:50%;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+padding:2%;
+    /* width: 80%;
+    margin: auto;
+    text-align: center; */
+    box-shadow:0px 15px 25px black;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5%;
+
+}
+
+.mee:hover{
+  background-color: yellowgreen;
+}
+.mee img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    position:relative;
+    transform:translate(0%,-30%);
+    box-shadow:0px 7px 8px black;
+    background-color: yellowgreen;
+
+}
+
+
+
+
+
+
+
+
+.fixed-footer{
+        bottom: 0;
+    }   
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+
+
+
+
+
+
+
+    .clr{
+  clear: both;
+}
+.footer-wrapper{
+  width: 100%;
+  height: auto;
+  min-height: 250px;
+  margin:auto;
+  background:black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  position:relative;
+  padding-top: 75px;
+  bottom: 0px;
+}
+.footer-social-icons{
+  width: 100%;
+  height: auto;
+  margin:auto;
+  margin-bottom: 40px;
+}
+.footer-social-icons ul{
+  margin:0px;
+  padding: 0px;
+  text-align: center;
+}
+.footer-social-icons ul li{
+  display: inline-block;
+  margin-right: 2px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  border-radius: 50%;
+}
+.footer-social-icons ul li a{
+  color: #fff;
+  display: block;
+  font-size: 22px;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+}
+.footer-social-icons ul li a i{
+  line-height: 36px;
+}
+.footer-social-icons ul li:nth-child(1){
+    background: #3b5998;
+}
+.footer-social-icons ul li:nth-child(2){
+    background: #1da1f2;
+}
+.footer-social-icons ul li:nth-child(3){
+    background: #25d366;
+}
+.footer-social-icons ul li:nth-child(4){
+    background: #c32aa3;
+}
+.footer-social-icons ul li:nth-child(5){
+    background: #007bb5;
+}
+.footer-social-icons ul li:nth-child(6){
+    background: #ff0000;
+}
+.footer-social-icons ul li:nth-child(7){
+    background: #db4437;
+}
+.footer-social-icons ul li:nth-child(8){
+    background: #00aff0;
+}
+.footer-social-icons ul li:nth-child(9){
+    background: #09b83e;
+}
+.footer-social-icons ul li:nth-child(10){
+    background: #bd081c;
+}
+.foot1{
+  display: flex;
+}
+.foot1 div{
+  width: 30%;
+  text-align: center;
+color:yellowgreen;
+  margin: 1%;
+}
+.foot1 ul li{
+  list-style-type: none;
+  padding: 3px;
+}
+
 
     </style>
 		<script src="https://kit.fontawesome.com/8893b709f5.js" crossorigin="anonymous"></script>
@@ -285,7 +481,7 @@ a{
         </h1>
         <h2></h2>
         <h3>
-          <span class="hidetext">latest collect<span>ion -</span><br>GYM</span>
+          <span class="hidetext">latest GYM collect<span>ion
         </h3>
         <p>
           <span class="hidetext">
@@ -333,6 +529,133 @@ a{
 </div>
 
 <img src="nike.png" class="logo" alt="logo">
+<div class="div">
+<img src="gy.png" alt="">
+<h2>
+
+  
+  𝔾𝕖𝕥 𝔹𝕖𝕤𝕥 𝔾𝕪𝕞 𝔾𝕖𝕒𝕣
+
+</h2>
+
+</div>
+
+<div class="part3">
+  <div class="mee az">
+    <img src="23.png" alt="">
+    <br>
+    <hr style="width:50%;margin:auto;"> 
+    <br>
+    <h6 style="font-size:17px;">
+        Gym Tools
+    </h6>
+<br><br>
+</div>
+
+
+
+
+
+
+
+
+<div class="mee az">
+  <img src="21.png" alt="">
+  <br>
+  <hr style="width:50%;margin:auto;"> 
+  <br>
+  <h6 style="font-size:17px;">
+      Gym Clothes
+  </h6>
+<br><br>
+</div>
+
+
+
+
+
+
+
+
+<div class="mee az">
+  <img src="22.png" alt="">
+  <br>
+  <hr style="width:50%;margin:auto;"> 
+  <br>
+  <h6 style="font-size:17px;">
+      Gym Shoes
+  </h6>
+<br><br>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer-wrapper">
+  <div class="top-img"></div>
+  <div class="container-fluid">
+    <div class="footer-social-icons">
+      <ul>
+        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+   
+
+      </ul>
+    </div>
+    <img src="nike.png" class="logo" alt="logo">
+<div class="foot1">
+  <div>
+    <ul>
+      <li><h4>Quick Links</h4></li>
+      <li>Home</li>
+      <li>About us</li>
+      <li>Services</li>
+    </ul>
+  </div>
+  <div>
+    <ul>
+      <li><h4>Quick Links</h4></li>
+      <li>Home</li>
+      <li>About us</li>
+      <li>Services</li>
+    </ul>
+  </div>
+  <div>
+    <ul>
+      <li><h4>Quick Links</h4></li>
+      <li>Home</li>
+      <li>About us</li>
+      <li>Services</li>
+    </ul>
+  </div>
+</div>
+
+<br>
+<h3 style="color: whitesmoke; text-align: center;padding:1%;background-color: rgb(51, 51, 51);">
+  Designed by:Shubham Prakash
+</h3>
+<br>
+  </div>
+</div>
+
+
+
 
 
 
@@ -452,5 +775,20 @@ a{
         ease: Expo.easeInOut
       });
     </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            var positiontop = $(document).scrollTop();
+            console.log(positiontop);
+            if ((positiontop > 770) && (positiontop < 1760))
+            $('.az').addClass('animated bounceInLeft')
+            else
+            $('.az').removeClass('animated bounceInLeft')
+        })
+    })
+</script>
 </body>
 </html>
